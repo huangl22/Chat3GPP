@@ -1,5 +1,5 @@
 from configs.model_configs import EMBED_CONFIG, LLM_CONFIG
-from server.llm import load_llama3_model, generate_answer_llama3, generate_multiple_choice_prompt, generate_prompt, load_qwen_model, generate_answer_qwen
+from server.llm import load_llama3_model, generate_answer_llama3, generate_multiple_choice_prompt, generate_prompt
 import json
 import re
 import numpy as np
